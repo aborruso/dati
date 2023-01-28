@@ -7,7 +7,7 @@ set -o pipefail
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-nome="conai"
+nome="osservatorio-raccolta-differenziata_anci-conai"
 
 mkdir -p "$folder"/../../dati/"$nome"
 
