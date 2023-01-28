@@ -35,6 +35,14 @@ fi
 
 zip -r -7 "$folder"/../../dati/"$nome"/conconcessioni.zip "$folder"/../../dati/"$nome"/conconcessioni.*
 
-find "$folder"/../../dati/"$nome" -type f -not -name "*.zip" -and -not -name "README.md" -delete
+URL_csv="https://dati.mit.gov.it/catalog/dataset/dafc8e4d-924f-4bbc-b670-ec8c34b5c867/resource/5c368853-0890-489d-901d-76846aa1947e/download/concessionietrf.csv"
+
+if [ ! -f "$folder"/tmp/concessionietrf.csv ]; then
+  curl -kL "$URL_csv" -o "$folder"/tmp/concessionietrf.csv
+fi
+
+mlr --csv put -S 'for (k in $*) {$[k] = gsub($[k], "inf", "")}' "$folder"/tmp/concessionietrf.csv >"$folder"/../../dati/"$nome"/concessionietrf.csv
+
+find "$folder"/../../dati/"$nome" -type f -not -name "*.zip" -and -not -name "README.md" -and -not -name "*.csv" -delete
 
 find "$folder"/tmp -type f -delete
