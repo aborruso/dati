@@ -19,7 +19,7 @@ Per punti:
     - una volta normalizzato è `(1540817.884320, 3930371.140000) - (2831503.600000, 5074385.124000)`
 - [risorsa in formato CSV](https://dati.mit.gov.it/catalog/dataset/concessioni-demaniali-marittime-a-maggio-2021/resource/5c368853-0890-489d-901d-76846aa1947e);
   - il file orinale contiene nelle colonne `X` e `Y` i valori numerici di coordinate, ma anche la stringa `inf`. Abbiamo rimosso `inf` quando presente, quindi ci sono alcuni record senza valori di coordinate;
-  - nel sito di origine è descritto il sistema di coordinate associato alle coppie di coordinate: "EPSG:6857". C'è un errore di battitura, e quello corretto è [EPSG:6875](https://epsg.io/6875). Abbiamo segnalato la cosa, ma non abbiamo avuto alcuna risposta.
+  - nel sito di origine è descritto il sistema di coordinate associato alle coppie di coordinate: "EPSG:6857". C'è un errore di battitura, e quello corretto è [EPSG:6875](https://epsg.io/6875). Abbiamo segnalato la cosa, ma non abbiamo avuto alcuna risposta, nè è stata corretta la cosa sul sito.
 
 I file di output:
 
