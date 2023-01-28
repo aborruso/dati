@@ -36,3 +36,5 @@ fi
 zip -r -7 "$folder"/../../dati/"$nome"/conconcessioni.zip "$folder"/../../dati/"$nome"/conconcessioni.*
 
 find "$folder"/../../dati/"$nome" -type f -not -name "*.zip" -and -not -name "README.md" -delete
+
+find "$folder"/tmp -type f -delete
