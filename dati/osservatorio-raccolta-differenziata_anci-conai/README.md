@@ -23,7 +23,7 @@ Il file di output:
 -  la `,` è il separatore di campo;
 -  il _character encoding_ è `UTF-8`.
 
-# Note sui dati presenti nel sito di origine
+# Note presenti nel sito di origine
 
 > È possibile consultare i dati relativi ai quantitativi di rifiuti urbani raccolti dai gestori > dei servizi comunali per singolo CER (codice identificativo rifiuti), al Comune e alla > popolazione interessata dalla raccolta.
 > I dati esposti sono stati rilevati da ANCI attraverso le seguenti fonti informative:
