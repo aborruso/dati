@@ -3,6 +3,7 @@
   - [Note presenti nel sito di origine](#note-presenti-nel-sito-di-origine)
     - [Generale](#generale)
     - [Codifica CER](#codifica-cer)
+  - [Sitografia](#sitografia)
 
 # Introduzione
 
@@ -85,3 +86,8 @@ Il file di output:
 > - Ingombranti a smaltimento: 200307
 > - Altri rifiuti urbani indifferenziati: 200399
 > - Rifiuti da Raccolta Differenziata Avviati a Smaltimento: 888888
+
+## Sitografia
+
+- Guenter Richter, mappa [pro capite](https://observablehq.com/d/feec2d7f1f3efed7);
+- Guenter Richter, mappa per [categoria](https://observablehq.com/d/5c958a14624a759a).
