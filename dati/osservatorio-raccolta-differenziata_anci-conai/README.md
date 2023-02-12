@@ -21,7 +21,7 @@ Il file di output:
 - è [`dati-raccolta_differenziata.csv`](dati-raccolta_differenziata.csv);
 - formato `CSV`;
 - la `,` è il separatore di campo;
-- il _character encoding_ è `UTF-8`;
+- il *character encoding* è `UTF-8`;
 - è composto dai campi sottostanti.
 
 | name | description | type |

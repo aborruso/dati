@@ -24,4 +24,4 @@ Per punti:
 I file di output:
 
 - quello in formato _ESRI Shapefile_ è [`conconcessioni.zip`](conconcessioni.zip);
-- quello in formato `CSV` è [`concessionietrf.csv`](concessionietrf.csv) (separatore di campo la `,`, *encoding* `UTF-8`).
+- quello in formato `CSV` è [`concessionietrf.csv`](concessionietrf.csv) (separatore di campo la `,`, _encoding_ `UTF-8`).
