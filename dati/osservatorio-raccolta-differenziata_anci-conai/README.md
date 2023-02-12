@@ -1,3 +1,9 @@
+- [Introduzione](#introduzione)
+  - [Note sui dati esposti qui](#note-sui-dati-esposti-qui)
+  - [Note presenti nel sito di origine](#note-presenti-nel-sito-di-origine)
+    - [Generale](#generale)
+    - [Codifica CER](#codifica-cer)
+
 # Introduzione
 
 > La Banca Dati ANCI CONAI e l'Osservatorio Enti Locali sono due specifici strumenti introdotti dall'Accordo Quadro che hanno sostanzialmente lo scopo di raccogliere i principali dati relativi alla gestione dei rifiuti urbani nei Comuni Italiani, garantendo una base di dati utile a successive elaborazioni, la prima delle quali è la messa a disposizione dei Comuni stessi di informazioni preziose per monitorare i propri standard di efficacia.
