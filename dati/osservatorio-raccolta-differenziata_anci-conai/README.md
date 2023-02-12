@@ -21,7 +21,20 @@ Il file di output:
 - è [`dati-raccolta_differenziata.csv`](dati-raccolta_differenziata.csv);
 - formato `CSV`;
 - la `,` è il separatore di campo;
-- il _character encoding_ è `UTF-8`.
+- il _character encoding_ è `UTF-8`;
+- è composto dai campi sottostanti.
+
+| name | description | type |
+| --- | --- | --- |
+| Comune | nome del Comune | string |
+| Provincia | nome della Provincia | string |
+| Regione | nome della Regione | string |
+| Raccolto (t) | Tonnellate raccolte per Comune | number |
+| Abitanti | numero di abitanti per Comune | integer |
+| ISTAT | codice ISTAT del Comune | string |
+| Anno | anno di riferimento | integer |
+| tipologia | tipologia di rifiuto | string |
+| CodiceCER | codice CER del rifiuto | integer |
 
 ## Note presenti nel sito di origine
 

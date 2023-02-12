@@ -1,0 +1,37 @@
+resources:
+  - name: dati-raccolta_differenziata
+    type: table
+    path: dati-raccolta_differenziata.csv
+    scheme: file
+    format: csv
+    encoding: utf-8
+    mediatype: text/csv
+    schema:
+      fields:
+        - name: Comune
+          description: nome del Comune
+          type: string
+        - name: Provincia
+          description: nome della Provincia
+          type: string
+        - name: Regione
+          description: nome della Regione
+          type: string
+        - name: Raccolto (t)
+          description: Tonnellate raccolte per Comune
+          type: number
+        - name: Abitanti
+          description: numero di abitanti per Comune
+          type: integer
+        - name: ISTAT
+          description: codice ISTAT del Comune
+          type: string
+        - name: Anno
+          description: anno di riferimento
+          type: integer
+        - name: tipologia
+          description: tipologia di rifiuto
+          type: string
+        - name: CodiceCER
+          description: codice CER del rifiuto
+          type: integer
